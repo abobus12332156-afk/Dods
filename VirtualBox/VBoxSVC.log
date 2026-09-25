@@ -1,0 +1,111 @@
+00:00:00.000396 main     VirtualBox XPCOM Server 7.2.18 r175117 linux.amd64 (Sep 14 2026 15:54:26) release log
+00:00:00.000399 main     Log opened 2026-09-20T10:13:11.459391000Z
+00:00:00.000399 main     Build Type: release
+00:00:00.000403 main     OS Product: Linux
+00:00:00.000404 main     OS Release: 7.2.6-1-cachyos
+00:00:00.000404 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 17 Sep 2026 10:26:35 +0000
+00:00:00.000423 main     DMI Product Name: MS-7D42
+00:00:00.000426 main     DMI Product Version: 1.0
+00:00:00.000431 main     Firmware type: UEFI
+00:00:00.000592 main     Secure Boot: Disabled
+00:00:00.000614 main     Host RAM: 15842MB (15.4GB) total, 10410MB (10.1GB) available
+00:00:00.000617 main     Executable: /opt/VirtualBox/VBoxSVC
+00:00:00.000617 main     Process ID: 139458
+00:00:00.000617 main     Package type: LINUX_64BITS_GENERIC
+00:00:00.002163 main     IPC socket path: /tmp/.vbox-nikita-ipc/ipcd
+00:00:00.003034 DCon01   VirtualBox: object creation starts
+00:00:00.003076 DCon01   Home directory: '/home/nikita/.config/VirtualBox'
+00:00:00.003300 DCon01   Loading settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.007144 DCon01   HostDnsMonitor: initializing
+00:00:00.007217 DCon01   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.007220 DCon01   NAT: resolv.conf: ignoring "options edns0 trust-ad"
+00:00:00.007224 DCon01   HostDnsMonitor: updating information
+00:00:00.007228 DCon01   HostDnsMonitor: old information
+00:00:00.007229 DCon01     no server entries
+00:00:00.007230 DCon01     no domain set
+00:00:00.007231 DCon01     no search string entries
+00:00:00.007232 DCon01   HostDnsMonitor: new information
+00:00:00.007233 DCon01     server 1: 127.0.0.53
+00:00:00.007234 DCon01     domain: lan
+00:00:00.007235 DCon01     search string 1: lan
+00:00:00.007765 DCon01   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.007859 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.007910 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.008243 DCon01   Platform architecture set to 'x86'
+00:00:00.009064 DCon01   Loading settings file "/home/nikita/VirtualBox VMs/Arch/Arch.vbox" with version "1.19-linux"
+00:00:00.009173 DCon01   Platform architecture set to 'x86'
+00:00:00.009343 DCon01   Platform architecture set to 'x86'
+00:00:00.009565 DCon01   Loading settings file "/home/nikita/VirtualBox VMs/шинда/шинда.vbox" with version "1.19-linux"
+00:00:00.009641 DCon01   Platform architecture set to 'x86'
+00:00:00.009716 DCon01   Platform architecture set to 'x86'
+00:00:00.009826 DCon01   Loading settings file "/home/nikita/VirtualBox VMs/Gentoo/Gentoo.vbox" with version "1.19-linux"
+00:00:00.009890 DCon01   Platform architecture set to 'x86'
+00:00:00.010040 DCon01   VirtualBox: object created
+00:00:00.352132 DCon03   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.354209 DCon03   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:00:00.354287 DCon03   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.355741 DCon03   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:00:00.355817 DCon03   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.357318 DCon03   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:00:00.371692 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:00.372181 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:00.399260 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:00.399817 DCon03   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.483395 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:00.483760 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:00.688912 DCon03   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.690996 DCon03   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:00:03.223167 DCon03   Launched VM: 2013293696 pid: 139500 (0x220ec) frontend: GUI/Qt name: Gentoo
+00:00:03.243964 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.244493 DCon01   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:03.285269 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:03.285681 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:03.723343 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'Gentoo' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:00:03.747177 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.747784 DCon03   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:03.788975 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:03.789381 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:12.388726 DCon03   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:12.390320 DCon03   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:00:18.011506 DCon08   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:18.013383 DCon08   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:00:18.013479 DCon08   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:18.014962 DCon08   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:00:18.015049 DCon08   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:18.016533 DCon08   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:00:18.025717 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:18.026223 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:18.039134 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:18.039895 DCon08   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:18.121619 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:18.122097 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:18.361523 DCon08   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:18.363473 DCon08   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:00:19.669438 DCon08   Launched VM: 2214612528 pid: 139611 (0x2215b) frontend: GUI/Qt name: Gentoo
+00:00:19.687979 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:19.688448 DCon04   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:19.689615 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:19.690059 DCon07   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:19.729181 DCon12   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:19.729574 DCon12   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:19.730279 DCon12   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:19.730698 DCon12   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:20.169598 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'Gentoo' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:00:20.187975 DCon11   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:20.188488 DCon11   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:20.192506 DCon11   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:20.192939 DCon11   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:20.228523 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:20.228925 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:20.233989 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:20.234355 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:59.188970 DCon01   Saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:59.190941 DCon01   Finished saving settings file "/home/nikita/.config/VirtualBox/VirtualBox.xml"
+00:01:05.696213 main     VirtualBox: object deletion starts
+00:01:05.696240 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/nikita/VirtualBox VMs/Arch/Arch.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:05.696328 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/nikita/VirtualBox VMs/шинда/шинда_1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:05.696371 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/mnt/storage/Linux/Gentoo_1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:05.696640 main     HostDnsMonitor: shutting down ...
+00:01:05.700041 main     HostDnsMonitor: shut down
+00:01:05.710316 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:05.710359 main     VirtualBox: object deleted

@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.7",
+  "datasets_dir": "/home/nikita/datasets",
+  "weights_dir": "/home/nikita/cs2_bot/weights",
+  "runs_dir": "/home/nikita/cs2_bot/runs",
+  "uuid": "7127c77d230b575a25ae46892580ae411076af0c0ff6f3c54a36e6a9394568c9",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": false
+}

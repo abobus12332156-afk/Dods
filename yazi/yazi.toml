@@ -1,0 +1,16 @@
+[preview]
+tab_size = 2
+max_width = 600
+max_heidht = 400
+cache_dir = "/tmp/yazi_cache"
+image_filter = "triangle"
+
+[[opener.edit]]
+run = 'nano "$@"'
+block = true
+for = "unix"
+
+[[opener.code]]
+run = 'code "$@"'
+block = false 
+for = "unix"

@@ -1,0 +1,326 @@
+input {
+    keyboard {
+        xkb {
+            layout "us,ru"
+            variant "basic,phonetic_winkeys"
+            options "grp:alt_shift_toggle"
+        }
+        repeat-delay 300
+        repeat-rate 50
+    }
+
+    touchpad {
+        tap
+        natural-scroll
+    }
+
+    mouse {
+    }
+
+    trackpoint {
+    }
+
+    focus-follows-mouse
+}
+
+output "DP-3" {
+    mode "2560x1440@179.999"
+    scale 1
+    variable-refresh-rate
+}
+
+layout {
+    gaps 12
+
+    center-focused-column "never"
+
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+
+    default-column-width {
+        proportion 0.5
+    }
+
+    focus-ring {
+        width 2
+        active-color "#e48567"
+        inactive-color "#291914"
+        urgent-color "#fd4663"
+    }
+
+    border {
+        off
+    }
+
+    shadow {
+        softness 30
+        spread 5
+        offset x=0 y=5
+        color "#0007"
+    }
+}
+
+spawn-at-startup "noctalia-shell"
+
+environment {
+    XCURSOR_SIZE "24"
+    QT_QPA_PLATFORM "wayland"
+    QT_QPA_PLATFORMTHEME "qt6ct"
+    MOZ_ENABLE_WAYLAND "1"
+    ELECTRON_OZONE_PLATFORM_HINT "wayland"
+}
+
+prefer-no-csd
+
+hotkey-overlay {
+    skip-at-startup
+}
+
+animations {
+    slowdown 1.0
+}
+
+window-rule {
+    geometry-corner-radius 8
+    clip-to-geometry true
+}
+
+window-rule {
+    match app-id=r#"^org\.wezterm\.WezTerm$"#
+    default-column-width { proportion 0.5; }
+}
+
+window-rule {
+    match app-id=r#"^ghostty$"#
+    default-column-width { proportion 0.5; }
+}
+
+window-rule {
+    match app-id=r#"^org\.gnome\.Nautilus$"#
+    default-column-width { proportion 0.66667; }
+}
+
+window-rule {
+    match app-id=r#"^steam$"#
+    open-fullscreen true
+}
+
+window-rule {
+    match app-id=r#"^UnrealEditor$"#
+    open-maximized true
+}
+
+binds {
+    Mod+Q hotkey-overlay-title="Terminal" {
+        spawn "ghostty";
+    }
+
+    Mod+D hotkey-overlay-title="Application launcher" {
+        spawn "rofi" "-show" "drun";
+    }
+
+    Mod+Return {
+        spawn "ghostty";
+    }
+
+    Mod+C {
+        close-window;
+    }
+
+    Mod+Left {
+        focus-column-left;
+    }
+
+    Mod+Right {
+        focus-column-right;
+    }
+
+    Mod+Up {
+        focus-window-up;
+    }
+
+    Mod+Down {
+        focus-window-down;
+    }
+
+    Mod+H {
+        focus-column-left;
+    }
+
+    Mod+J {
+        focus-window-down;
+    }
+
+    Mod+K {
+        focus-window-up;
+    }
+
+    Mod+L {
+        focus-column-right;
+    }
+
+    Mod+Ctrl+H {
+        move-column-left;
+    }
+
+    Mod+Ctrl+J {
+        move-window-down;
+    }
+
+    Mod+Ctrl+K {
+        move-window-up;
+    }
+
+    Mod+Ctrl+L {
+        move-column-right;
+    }
+
+    Mod+Home {
+        focus-column-first;
+    }
+
+    Mod+End {
+        focus-column-last;
+    }
+
+    Mod+Ctrl+Home {
+        move-column-to-first;
+    }
+
+    Mod+Ctrl+End {
+        move-column-to-last;
+    }
+
+    Mod+1 {
+        focus-workspace 1;
+    }
+
+    Mod+2 {
+        focus-workspace 2;
+    }
+
+    Mod+3 {
+        focus-workspace 3;
+    }
+
+    Mod+4 {
+        focus-workspace 4;
+    }
+
+    Mod+5 {
+        focus-workspace 5;
+    }
+
+    Mod+6 {
+        focus-workspace 6;
+    }
+
+    Mod+7 {
+        focus-workspace 7;
+    }
+
+    Mod+8 {
+        focus-workspace 8;
+    }
+
+    Mod+9 {
+        focus-workspace 9;
+    }
+
+    Mod+Ctrl+1 {
+        move-column-to-workspace 1;
+    }
+
+    Mod+Ctrl+2 {
+        move-column-to-workspace 2;
+    }
+
+    Mod+Ctrl+3 {
+        move-column-to-workspace 3;
+    }
+
+    Mod+Ctrl+4 {
+        move-column-to-workspace 4;
+    }
+
+    Mod+Ctrl+5 {
+        move-column-to-workspace 5;
+    }
+
+    Mod+Ctrl+6 {
+        move-column-to-workspace 6;
+    }
+
+    Mod+Ctrl+7 {
+        move-column-to-workspace 7;
+    }
+
+    Mod+Ctrl+8 {
+        move-column-to-workspace 8;
+    }
+
+    Mod+Ctrl+9 {
+        move-column-to-workspace 9;
+    }
+
+    Mod+R {
+        switch-preset-column-width;
+    }
+
+    Mod+F {
+        maximize-column;
+    }
+
+    Mod+Shift+F {
+        fullscreen-window;
+    }
+
+    Mod+M {
+        maximize-window-to-edges;
+    }
+
+    Mod+V {
+        toggle-window-floating;
+    }
+
+    Mod+W {
+        toggle-column-tabbed-display;
+    }
+
+    Mod+Space {
+        toggle-window-floating;
+    }
+
+    Mod+Shift+Space {
+        switch-focus-between-floating-and-tiling;
+    }
+
+    Mod+Shift+Q {
+        quit;
+    }
+
+    Mod+Shift+E {
+        quit;
+    }
+
+    Mod+Shift+Slash {
+        show-hotkey-overlay;
+    }
+
+    Print {
+        screenshot;
+    }
+
+    Ctrl+Print {
+        screenshot-screen;
+    }
+
+    Alt+Print {
+        screenshot-window;
+    }
+}
+
+include "noctalia.kdl"

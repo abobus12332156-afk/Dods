@@ -1,0 +1,9 @@
+[[managed.prepend_keymap]]
+on   = [ "g", "h" ]
+run  = "cd ~"
+desc = "Прыжок на корень дома"
+
+[[managed.prepend_keymap]]
+on   = [ "c", "v" ]
+run  = 'shell --block --confirm "cp -r %* ."'
+desc = "Копирование в текущую директорию" 
