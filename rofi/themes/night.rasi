@@ -1,0 +1,14 @@
+* {
+    background-color: #0b1220;
+    text-color: #dbeafe;
+}
+
+window {
+    width: 600px;
+    border-radius: 15px;
+    background-color: #0b1220;
+}
+
+elementselected {
+    background-color: #2563eb;
+}
